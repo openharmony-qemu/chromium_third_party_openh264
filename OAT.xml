@@ -3,30 +3,12 @@
     <oatconfig>
         <policylist>
             <policy name="projectPolicy" desc="">
-                <policyitem type="compatibility" name="Khronos License" path="SPIRV.*" desc="" />
-                <policyitem type="compatibility" name="GPL-2.0-with-bison-exception" path=".*" desc="" />
-                <policyitem type="compatibility" name="GPL-3.0+" path=".*" desc="" />
-                <policyitem type="compatibility" name="Khronos Group License" path="glslang/MachineIndependent.*" desc="" />
                 <policyitem type="compatibility" name="MPL-2.0" path="module.*" desc="" />
             </policy>
         </policylist>
         <filefilterlist>
             <filefilter name="defaultPolicyFilter"
                 desc="Filters for compatibility,license header policies">
-                <filteritem type="filepath" name="third_party/llvm-10.0/llvm/include/llvm/Support/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/SPIRV-Tools/BUILD.bazel"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/llvm-subzero/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/subzero/LICENSE.TXT"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/subzero/bloat/README.chromium"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/llvm-10.0/Android.bp"
-                    desc="" />
-                <filteritem type="filepath" name="third_party/SPIRV-Headers/BUILD.bazel"
-                    desc="" />
                 <filteritem type="filepath" name=".*rest"
                     desc="" />
                 <filteritem type="filepath" name="README.OpenSource"
@@ -35,14 +17,31 @@
             <filefilter name="defaultFilter">
                 <filteritem type="filepath" name="README.OpenSource"
                     desc="" />
+                <filteritem type="filepath" name=".*png"
+                    desc="" />
+                <filteritem type="filepath" name=".*264"
+                    desc="" />
+                <filteritem type="filepath" name="res/BA1_Sony_D.jsv"
+                    desc="" />
+                <filteritem type="filepath" name="res/BASQP1_Sony_C.jsv"
+                    desc="" />
+                <filteritem type="filepath" name="res/CVFC1_Sony_C.jsv"
+                    desc="" />
+                <filteritem type="filepath" name="res/CiscoVT2people_160x96_6fps.yuv"
+                    desc="" />
+                <filteritem type="filepath" name="res/CiscoVT2people_320x192_12fps.yuv"
+                    desc="" />
+                <filteritem type="filepath" name="res/NL1_Sony_D.jsv"
+                    desc="" />
+                <filteritem type="filepath" name="res/Static_152_100.yuv"
+                    desc="" />
+                <filteritem type="filepath" name="autotest/performanceTest/ios/fruitstrap"
+                    desc="" />
+                <filteritem type="filepath" name="autotest/performanceTest/ios/iFileTransfer"
+                    desc="" />
             </filefilter>
         </filefilterlist>
         <licensematcherlist>
-            <licensematcher name="Khronos Group License" desc="">
-                <licensetext name="
-                * Copyright (c) 2013 The Khronos Group Inc.
-            " desc="" />
-            </licensematcher>
         </licensematcherlist>
     </oatconfig>
 </configuration>
