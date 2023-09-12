@@ -1,6 +1,6 @@
 [
     {
-        "Name": "chromium_third_party_openh264",                   # 上游开源软件名全称
+        "Name": "openh264",                   # 上游开源软件名全称
         "License":"compatibility"        # 上游开源软件中包含的许可证信息
         "License File":"LICENSE"       # 许可证所在文件路径
         "Version Number": "b52786888ddce9d6bc06b7825ba9bffc65924e0c",
