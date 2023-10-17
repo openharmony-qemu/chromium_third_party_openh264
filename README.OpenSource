@@ -1,10 +1,11 @@
 [
     {
-        "Name": "openh264",                   # 上游开源软件名全称
-        "License":"compatibility"        # 上游开源软件中包含的许可证信息
-        "License File":"LICENSE"       # 许可证所在文件路径
+        "Name": "openh264",
+        "License":"BSD-2-Clause",
+        "License File":"LICENSE",
         "Version Number": "b52786888ddce9d6bc06b7825ba9bffc65924e0c",
-        "Upstream URL": "https://chromium.googlesource.com/external/github.com/cisco/openh264@b52786888ddce9d6bc06b7825ba9bffc65924e0c",   # 上游软件包发布地址
-        "Description": "第三方软件openh264"           # 开源软件功能描述
+        "Owner": "huangjiewen2@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/cisco/openh264@b52786888ddce9d6bc06b7825ba9bffc65924e0c",
+        "Description": "第三方软件openh264"
     }
 ]
