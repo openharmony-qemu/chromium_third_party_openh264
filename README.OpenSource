@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "openh264",
+        "License":"BSD-2-Clause",
+        "License File":"LICENSE",
+        "Version Number": "478e5ab3eca30e600006d5a0a08b176fd34d3bd1",
+        "Owner": "huamengzheng@huawei.com",
+        "Upstream URL": "https://chromium.googlesource.com/external/github.com/cisco/openh264@478e5ab3eca30e600006d5a0a08b176fd34d3bd1",
+        "Description": "第三方软件openh264，一个实时编码和解码视频流至H.264/MPEG-4 AVC格式的自由软件函式库"
+    }
+]
